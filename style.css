@@ -1,0 +1,120 @@
+body {
+  background: #191765;
+  background-image: url("eclips.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position-y: 50px;
+  background-position-x: -210px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 40px 30px 0 30px;
+  font-size: 18px;
+  letter-spacing: 3%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  font-family: 'Roboto', sans-serif;
+}
+
+.first {
+  border-bottom: 1px solid #646369;
+  margin: 0 20px;
+  text-align: center;
+  padding-top: 55px;
+}
+
+.first h1 {
+  color: #7d73fc;
+  font-size: 42px;
+  letter-spacing: 0.37px;
+  text-align: center;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.first h2 {
+  color: #edecff;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.9px;
+  font-weight: 400;
+}
+
+.first p {
+  color: #c8c8d4;
+  font-size: 20px;
+  margin: 24px 0;
+  line-height: 28px;
+  padding: 0 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.second {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-gap: 20px;
+  padding: 15px 50px 0 10px;
+  color: #f5f5ff;
+  flex-grow: 1;
+  position: relative;
+  border-bottom: 1px solid #646369;
+  margin: 0 20px;
+}
+
+.second img {
+  width: 120px;
+  height: auto;
+  position: absolute;
+  left: 80%;
+}
+
+.second ul {
+  list-style: none;
+}
+
+.second li {
+  margin-bottom: 5px;
+  color: #f5f5ff;
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.second ul > :first-child {
+  margin-bottom: 7px;
+  color: #9490ff;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.third img {
+  padding-top: 30px;
+  margin: 10px;
+}
+
+.footer-images {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  padding-left: 85px;
+}
+
+.work {
+  width: 90px;
+  height: auto;
+  padding-bottom: 60px;
+  padding-left: 140px;
+  padding-top: 25px;
+}
