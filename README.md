@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+# My Portfolio
 
-> One paragraph statement about the project.
+> This is second project in Microverse. This project is about building My portfolio website.
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,19 +11,16 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- CSS
+- HTML
+- VSCode
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://haseebsediqi.github.io/MyPortfolio/)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+# To get a local copy up and running follow these simple example steps. first click on the above "Live Demo Link". Once the link is open, click on the green "code" button on the top right. then click on download.
 
 
 To get a local copy up and running follow these simple example steps.
@@ -43,17 +41,10 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Haseeb**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/HaseebSediqi)
+- LinkedIn: [LinkedIn](http://linkedin.com/in/haseeb-sediqi)
 
 ## 🤝 Contributing
 
