@@ -104,7 +104,7 @@ section {
 }
 
 .third img {
-  padding-top: 30px;
+  padding-top: 10px;
   margin: 10px;
 }
 
@@ -354,8 +354,17 @@ section {
   color: #EDECFF;
 }
 
-hr {
-  border: 1px solid #3A3837;
-  margin: 0 -50px 0 -50px;
+footer {
+  border-top: 1px solid #3A3837;
+  color: #3A3837;
 }
+
+.footer-email {
+  color: #EBEBFF;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+
 
