@@ -250,3 +250,54 @@ section {
   position: absolute;
   filter: blur(15px);
 }
+
+.contact-form-section {
+  background: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15vh;
+}
+
+.contact-us-title {
+  background-color: #555;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #9390FF;
+}
+
+.contact-us-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #F5F5FF;
+}
+
+.text-input {
+  background: #fff;
+  width: 100%;
+  height: 48px;
+}
+
+.text-input::placeholder {
+  padding-left: 16px;
+}
+
+.email-input {
+  background: #F7F3FF;
+  border: 1px solid #9490FF;
+  box-sizing: border-box;
+  width: 100%;
+  height: 48px;
+}
+
+.email-input::placeholder {
+  padding-left: 16px;
+}
