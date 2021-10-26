@@ -258,6 +258,7 @@ section {
   justify-content: center;
   margin-top: 17vh;
   margin-left: 8px;
+  margin-bottom: 50px;
 }
 
 .contact-us-title {
@@ -353,5 +354,8 @@ section {
   color: #EDECFF;
 }
 
-
+hr {
+  border: 1px solid #3A3837;
+  margin: 0 -50px 0 -50px;
+}
 
