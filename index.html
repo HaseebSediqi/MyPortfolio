@@ -197,58 +197,53 @@
             </li>
         </ul>
         <a href="#" class="button">See Project</a>
-
-        <br><br><br><br><br><br>
-
-        <div>
-            <h1 class="contact-us-title">Conact Us</h1>
-            <p class="contact-us-text">If you have an application you are interested in developing, a feature that you
-                need built or a project
-                that needs coding. I’d love to help with it </p>
-        </div>
-        <div class="form">
-            <form action="#">
-                <div class="form-part1">
-                    <input type="text" id="textbox" placeholder="Text Input">
-                    <input type="email" id="textbox" placeholder="jeremy@gmail.com">
+        <section class="contact-form-section">
+            <h1 class="contact-us-title">CONTACT US</h1>
+            <p class="contact-us-description">If you have an application you are interested in developing
+                , a feature that you need built or a project that needs coding.
+                I’d love to help with it
+            </p>
+            <form class="submit-form" action="https://formspree.io/f/xpzkebry" method="post">
+                <input name ="name" type="text" id="text-input" class="text-input" placeholder="Text Input" maxlength="30" required>
+                <input name="email" type="email" id="email" class="email-input" placeholder="jeremy@gmail.com" required>
+                <textarea id="message" name="message" class="message" placeholder="Enter text here" maxlength="500"
+                    required></textarea>
+                <div class="submit-button-container">
+                    <button class="submit-button" type="submit">See Project</button>
                 </div>
-                <div class="form-part2">
-                    <textarea name="message" type="text" id="input-message" placeholder="Enter text here"></textarea>
-                </div>
-                <input type="submit" value="See Project" id="input-submit">
             </form>
-
-            <section class="third">
-                <ul class="footer-images">
-                    <li>
-                        <a href="#">
-                            <img class="disp1" src="firstpic.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img class="disp2" src="In.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img class="disp3" src="thirdpic.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img class="disp4" src="fourth.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img class="disp5" src="fifth.png">
-                        </a>
-                    </li>
-                </ul>
-            </section>
-            <a href="#" id="email">emailhere@email.com</a>
-        </div>
+        </section>
+        <footer class="third">
+            <ul class="footer-images bottom-footer">
+                <li>
+                    <a href="#">
+                        <img class="disp" src="firstpic.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="disp" src="In.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="disp" src="thirdpic.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="disp" src="fourth.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="disp" src="fifth.png">
+                    </a>
+                </li>
+            </ul>
+            <a class="footer-email" href="mailto:emailhere@email.com" target="_blank">emailhere@email.com</a>
+            <hr class="footer-line">
+        </footer>
     </main>
 </body>
 
