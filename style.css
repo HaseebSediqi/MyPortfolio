@@ -327,16 +327,30 @@ section {
   padding-left: 12px;
 }
 
+.submit-button-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .submit-button {
-  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border-style: none;
   padding: 12px;
-  width: 89px;
   height: 48px;
   background: #7D73FC;
   margin: 40px 0px;
-  margin-left: 120px;
-  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #EDECFF;
 }
 
 
