@@ -211,7 +211,6 @@ section {
   background-color: #2a2b33;
 }
 
-
 .Ellipse20 {
   width: 300.61px;
   height: 482.57px;
@@ -266,7 +265,7 @@ section {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #9390FF;
+  color: #9390ff;
 }
 
 .contact-us-description {
@@ -285,11 +284,6 @@ section {
   flex-direction: column;
   justify-content: center;
 }
-
-
-
-
-
 
 .text-input {
   background: #fff;
@@ -342,25 +336,25 @@ section {
   border-style: none;
   padding: 12px;
   height: 48px;
-  background: #7D73FC;
-  margin: 40px 0px 71px 0px;
+  background: #7d73fc;
+  margin: 40px 0 71px 0;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #EDECFF;
+  color: #edecff;
 }
 
 footer {
-  border-top: 1px solid #3A3837;
-  color: #3A3837;
+  border-top: 1px solid #3a3837;
+  color: #3a3837;
 }
 
 .footer-email {
-  text-decoration:none;
-  color: #EBEBFF;
+  text-decoration: none;
+  color: #ebebff;
   display: flex;
   justify-content: center;
 }
