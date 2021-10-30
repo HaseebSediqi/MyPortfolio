@@ -12,6 +12,11 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-mobile-version {
   display: flex;
   justify-content: space-between;
@@ -428,11 +433,6 @@ footer {
 }
 
 @media screen and (min-width: 1000px) {
-  /* html {
-    width: 100vw;
-    height: auto;
-  } */
-
   body {
     background-image: none;
   }
@@ -449,7 +449,7 @@ footer {
 
   .nav-desktop-version {
     display: unset;
-    position: static;
+    position: relative;
     width: 77px;
     height: 20px;
     font-style: normal;
@@ -459,9 +459,11 @@ footer {
     color: white;
   }
 
+
+
   #nav-desktop-version {
     list-style: none;
-    position: static;
+    position: relative;
     display: flex;
     justify-content: space-between;
     padding-right: 60px;
@@ -549,6 +551,7 @@ footer {
     top: 390px;
   }
 
+
   .second-desktop-image {
     display: unset;
     position: absolute;
@@ -572,8 +575,15 @@ footer {
     height: 448px;
     padding-left: 30px;
     padding-top: 60px;
+  }
 
-    /* margin-top: 80px; */
+  .for-transition img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+  }
+
+  .for-transition:hover img {
+    transform: scale(1.5);
   }
 
   .text-para-1 {
