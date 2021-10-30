@@ -459,7 +459,13 @@ footer {
     color: white;
   }
 
+  .nav-desktop-version a {
+    transition: color 1s;
+  }
 
+  .nav-desktop-version a:hover {
+    color: #7d73fc;
+  }
 
   #nav-desktop-version {
     list-style: none;
