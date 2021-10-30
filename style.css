@@ -49,6 +49,8 @@ nav a {
   text-align: center;
   font-weight: 700;
   padding-left: 10px;
+  animation-duration: 2s;
+  animation-name: sliding_down;
 }
 
 .first h2 {
@@ -57,6 +59,15 @@ nav a {
   line-height: 44px;
   letter-spacing: 0.9px;
   font-weight: 400;
+  animation-duration: 2s;
+  animation-name: sliding_down;
+}
+
+@keyframes sliding_down {
+  from {
+    transform: translateY(-88px);
+    color: rgba(255, 255, 255, 0);
+  }
 }
 
 .first-desktop-image {
