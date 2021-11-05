@@ -308,8 +308,6 @@ nav a {
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
-
-  /* transition: transform 0.8s; */
 }
 
 .text-para-1 .item2 {
@@ -342,10 +340,6 @@ nav a {
   background-color: #2a2b33;
 }
 
-
-
-/* Second square */
-
 .Img-Placeholder-desktop-right {
   display: unset;
   width: 527px;
@@ -356,7 +350,6 @@ nav a {
 }
 
 .text-para-2 .paragraph {
-  /* border: 1px solid yellow; */
   color: #b3bac5;
   width: 338px;
   float: left;
