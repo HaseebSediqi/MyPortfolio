@@ -207,7 +207,7 @@ nav a {
 .work2 {
   display: unset;
   width: 100px;
-  height: auto;
+  height: 50px;
 }
 
 .third-page h2 {
@@ -311,7 +311,12 @@ nav a {
 
   /* transition: transform 0.8s; */
 }
-
+.text-para-1 .item2{
+color: white;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+}
 .button {
   background-color: #7d73fc;
   text-decoration: none;
@@ -385,7 +390,12 @@ nav a {
   font-weight: 400;
   line-height: 30px;
 }
-
+.text-para-2 .item2{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  }
 .second-last-img-mobile {
   display: none;
 }
