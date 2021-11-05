@@ -311,12 +311,14 @@ nav a {
 
   /* transition: transform 0.8s; */
 }
-.text-para-1 .item2{
-color: white;
-font-size: 14px;
-font-weight: 400;
-line-height: 30px;
+
+.text-para-1 .item2 {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
 }
+
 .button {
   background-color: #7d73fc;
   text-decoration: none;
@@ -390,12 +392,14 @@ line-height: 30px;
   font-weight: 400;
   line-height: 30px;
 }
-.text-para-2 .item2{
+
+.text-para-2 .item2 {
   color: white;
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
-  }
+}
+
 .second-last-img-mobile {
   display: none;
 }
