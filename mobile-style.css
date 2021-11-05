@@ -79,7 +79,6 @@ nav a {
   font-size: 20px;
   margin: 24px 0;
   line-height: 28px;
-  padding: 0 21px;
   font-weight: 400;
   text-align: center;
   animation-duration: 2s;
@@ -147,10 +146,11 @@ nav a {
 }
 
 .footer-images {
+  display: flex;
   justify-content: center;
   text-align: center;
   list-style: none;
-  display: flex;
+  padding-right: 28px;
 }
 
 .footer-images img {
