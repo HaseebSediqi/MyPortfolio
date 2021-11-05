@@ -5,7 +5,8 @@
 
 > This is second project in Microverse. This project is about building My portfolio website.
 
-![screenshot](./app_screenshot.png)
+![screenshot](.//Users/haseebsediqi/Documents/github_projects/MyPortfolio/ScreenShot-Desktop-Version.png.png)
+![screenshot](.//Users/haseebsediqi/Documents/github_projects/MyPortfolio/ScreenShot-Mobile-Version.png.png)
 
 Additional description about the project and its features.
 
